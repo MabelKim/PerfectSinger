@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Layout"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center_vertical"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:layout_weight="1"
+            android:id="@+id/gender"
+            />
+        <TextView
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="당신의 목소리를\n들려주세요."
+            android:textAlignment="center"
+            android:id="@+id/voice_letter"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="35dp"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/high_or_low"
+        android:gravity="center"
+        android:textColor="#333333"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:text="낮은 음을 찾아보자."/>
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:id="@+id/ImageView01"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="2"
+        android:layout_height="0dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+        <ImageView
+            style="@style/ox"
+            android:id="@+id/x"
+            android:src="@drawable/x_2"/>
+        <Button
+            android:stateListAnimator="@null"
+            android:layout_weight="3"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/tone"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="80dp"
+            android:background="@drawable/piano2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            style="@style/ox"
+            android:id="@+id/o"
+            android:src="@drawable/o_2"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sentennce"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:text="피아노 음을 따라 불러봐요."/>
+    <ImageButton
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center"
+        android:id="@+id/StartStopButton"
+        android:src="@drawable/mic"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:layout_height="0dp"
+        android:layout_width="wrap_content"
+        android:layout_weight="2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Xdeca"/>
+</LinearLayout>
+

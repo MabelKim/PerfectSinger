@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromDegrees="0"
+    android:toDegrees="360" android:drawable="@drawable/gawang_loading">
+    <!--android:pivotX="50%" android:pivotY="50%" !-->
+    <!--<shape android:shape="ring" android:innerRadiusRatio="3"
+        android:thicknessRatio="10" android:useLevel="false">
+
+        <size android:width="56dip" android:height="56dip" />
+
+        <gradient android:type="linear" android:useLevel="false"
+            android:startColor="@android:color/transparent"
+            android:endColor="@color/MyOrange"
+            android:angle="0"
+            />
+    </shape>-->
+
+</rotate>

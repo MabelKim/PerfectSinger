@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Layout"
+    tools:ignore="Suspicious0dp"
+    tools:context="com.example.xingx.perfectsinger.Menu">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/gawang_sub"
+        android:layout_weight="1"
+         />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="4">
+    <Button
+        android:text=" 1. 난이도별 추천"
+        android:id="@+id/menu_button1"
+        style = "@style/TextShadow" />
+    <Button
+        android:text=" 2. 가왕의 추천"
+        android:id="@+id/menu_button2"
+        style = "@style/TextShadow"
+        />
+    <Button
+        android:text=" 3. 음역대 재측정"
+        android:id="@+id/menu_button3"
+        style = "@style/TextShadow"
+        />
+
+    <Button
+        android:text=" 4. 나의 음역대 확인"
+        android:id="@+id/menu_button4"
+        style = "@style/TextShadow"
+        />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        style="@style/Xdeca"/>
+</LinearLayout>

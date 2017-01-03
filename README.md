@@ -1,6 +1,5 @@
 # PerfectSinger
 네이버 D2 CAMPUS FEST 지원 프로젝트 파일입니다.<br> 
-![App_logo](htps://github.com/PerfectSinger/app/src/main/res/drawable/gawang_sub.png)<br>
 소개 Slide_Share 링크 : http://www.slideshare.net/ssuser03cf4b/perfectsinger <br>
 소개 Youtube 링크 : https://youtu.be/W0MvUCyPXKk
 # 프로젝트 소개
